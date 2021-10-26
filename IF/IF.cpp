@@ -7,7 +7,7 @@ int main()
 		if (vek >= 18) {
 		cout << "Vstup povoleny" << endl;
 		 }
-	  cout << "Toto sa stane vždy"; */
+	  cout << "Toto sa stane vÅ¾dy"; */
 	  /*
 	  int cislo = 4;
 
@@ -39,10 +39,16 @@ int main()
 	if (prikaz == google ||prikaz == siri) {
 		cout << "Zadal si spravny prikaz" << endl;
 	}
-	int hlasitost;
+	int x;
 	cout << "Zadaj hlasitost" << endl;
-	cin >> hlasitost;
-	if (hlasitost <= 100);
+	cin >> x;
+	if (x <= 100);
+	cout << "Zvysujem na hlasitost x" << endl;
+	else if (x > 100);
+		cout << "Hlasitost je prilis vysoka" << endl;
+	
+	
+	
 	
 
 }
